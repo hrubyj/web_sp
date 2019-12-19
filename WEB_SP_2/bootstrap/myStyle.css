@@ -1,0 +1,67 @@
+
+#menu {
+    min-width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #1d2124;
+}
+
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+}
+
+body{
+    background-image: url("backg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #cccccc;
+    font-family: "Verdana", sans-serif;
+}
+
+#clanek {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#uzivatele {
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+#recenze {
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 100%;
+}
+
+.table td.text {
+    max-width: 280px;
+}
+#recenze td.text span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
+
+#hlavicka {
+    background-color: #1d2124;
+}
+
+#abstract {
+    resize: none;
+}
+
+#rating {
+    resize: none;
+}
+
+#vsechny_recenze {
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 100%;
+}
